@@ -1,3 +1,4 @@
+
 def pascal(num):
     row = []
     for n in range(num):
@@ -8,7 +9,6 @@ def pascal(num):
 def draw(f, num):
    for row in f(num):
        print (' '.join(map(str, row)).center(num*2)+'\n')
-
 
 num = 5
 
